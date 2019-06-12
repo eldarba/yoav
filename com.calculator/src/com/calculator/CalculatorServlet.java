@@ -32,7 +32,7 @@ public class CalculatorServlet extends HttpServlet {
 		} catch (NumberFormatException e) {
 			out.println("illegal parameters error: " + e.getMessage());
 		} catch (Exception e) {
-			out.println("some oter error: " + e.getMessage());
+			out.println("some other error: " + e.getMessage());
 		}
 
 	}
